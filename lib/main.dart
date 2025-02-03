@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'tasks/task1.dart';
+import 'tasks/task2.dart';
 
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       
-      home: const Task1(),
+      //home: const Task1(),
+       home: const Task2(),
     );
   }
 }
