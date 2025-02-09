@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'tasks/task5.dart';
 import 'tasks/task6.dart';
 import 'tasks/task7.dart';
+import 'tasks/task8.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       // this is task selector
       //home: const Task1(),
       //home: const Task2(),
-      home: Task7(),
+      home: Task8(),
     );
   }
 }
