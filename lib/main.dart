@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-
-// import 'tasks/task1.dart';
-// import 'tasks/task2.dart';
-import 'tasks/task5.dart';
-import 'tasks/task6.dart';
-import 'tasks/task7.dart';
 import 'tasks/task8.dart';
+import 'package:http/http.dart' as http;
 
 void main() {
   runApp(const MyApp());
@@ -23,10 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      // this is task selector
-      //home: const Task1(),
-      //home: const Task2(),
-      home: Task8(),
+      home: ProductsPage(),
     );
   }
 }
